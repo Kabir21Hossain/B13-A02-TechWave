@@ -246,8 +246,14 @@
   .flex-wrap {
     flex-wrap: wrap;
   }
+  .items-center {
+    align-items: center;
+  }
   .justify-between {
     justify-content: space-between;
+  }
+  .justify-center {
+    justify-content: center;
   }
   .gap-x-8 {
     column-gap: calc(var(--spacing) * 8);
@@ -290,6 +296,27 @@
   .bg-gradient-to-r {
     --tw-gradient-position: to right in oklab;
     background-image: linear-gradient(var(--tw-gradient-stops));
+  }
+  .bg-\[url\(\'\/assets\'\)\] {
+    background-image: url('/assets');
+  }
+  .bg-\[url\(\'\/assets\/hero-bg\'\)\] {
+    background-image: url('/assets/hero-bg');
+  }
+  .bg-\[url\(\'\/assets\/hero-bg\.png\'\)\] {
+    background-image: url('/assets/hero-bg.png');
+  }
+  .bg-\[url\(\'\/images\'\)\] {
+    background-image: url('/images');
+  }
+  .bg-\[url\(\'assets\/hero-bg\.png\'\)\] {
+    background-image: url('assets/hero-bg.png');
+  }
+  .bg-\[url\(\)\] {
+    background-image: url();
+  }
+  .bg-\[url\(\/\"\"\)\] {
+    background-image: url(/"");
   }
   .from-\[\#F7E93F\] {
     --tw-gradient-from: #F7E93F;
@@ -440,6 +467,9 @@
   }
   .py-4 {
     padding-block: calc(var(--spacing) * 4);
+  }
+  .py-8 {
+    padding-block: calc(var(--spacing) * 8);
   }
   .text-center {
     text-align: center;

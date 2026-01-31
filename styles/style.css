@@ -11,3 +11,53 @@
 
 
 /* hamburger color */
+
+nav{
+    background-color:#220d41;
+}
+/* hero section */
+
+.hero{
+    position:relative;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    max-width:1600px;
+    background-color: #502a86;
+    margin:0 auto;
+    height:760px;
+    background-image:url('/assets/hero-bg.png');
+    background-size:contain;
+    background-repeat: no-repeat;
+
+}
+
+.circle{
+    position:absolute;
+    left:625px;
+    top:101px;
+    z-index:2;
+}
+
+.mic{
+    position: absolute;
+    left:740px;
+    top:170px;
+    z-index:5;
+}
+
+.badge{
+    background-color:#00FF88;
+    color:#1a0b2e;
+    width:75px;
+    height:38px;
+    border-radius:1000px;
+    padding:8px 16px;
+    position:absolute;
+    left:877px;
+    top:113px;
+    z-index:10;
+    text-align:center;
+    font-weight: bold;
+    text-transform:uppercase;
+}
