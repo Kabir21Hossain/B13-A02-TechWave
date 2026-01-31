@@ -2,62 +2,200 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 
-.inter{
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight:400;
-  font-style: normal;
+.inter {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
+/* shared style */
+button:hover {
+    transform: scaleY(1.1);
+    background-color: #06010a;
+}
 
 /* hamburger color */
 
-nav{
-    background-color:#220d41;
+nav {
+    background-color: #220d41;
 }
+
 /* hero section */
 
-.hero{
-    position:relative;
-    display:flex;
+.hero {
+    position: relative;
+    display: flex;
     flex-direction: column;
     align-items: center;
-    max-width:1600px;
-    background-color: #502a86;
-    margin:0 auto;
-    height:760px;
-    background-image:url('/assets/hero-bg.png');
-    background-size:contain;
+    max-width: 1600px;
+    /* background-color: #502a86; */
+    margin: 0 auto;
+    height: 760px;
+    background-image: url('/assets/hero-bg.png');
+    background-size: contain;
     background-repeat: no-repeat;
 
 }
 
-.circle{
-    position:absolute;
-    left:625px;
-    top:101px;
-    z-index:2;
-}
-
-.mic{
+.circle {
     position: absolute;
-    left:740px;
-    top:170px;
-    z-index:5;
+    left: 625px;
+    top: 101px;
+    z-index: 2;
+    width: 350px;
+    height: 350px;
+    margin-bottom: 40px;
+
 }
 
-.badge{
-    background-color:#00FF88;
-    color:#1a0b2e;
-    width:75px;
-    height:38px;
-    border-radius:1000px;
-    padding:8px 16px;
-    position:absolute;
-    left:877px;
-    top:113px;
-    z-index:10;
-    text-align:center;
+.container {
+    max-width: 550px;
+    height: 558px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.mic {
+    position: absolute;
+    left: 700px;
+    top: 170px;
+    z-index: 5;
+    width: 200px;
+    height: 200px;
+}
+
+.badge {
+    background-color: #00FF88;
+    color: #1a0b2e;
+    width: 75px;
+    height: 38px;
+    border-radius: 1000px;
+    padding: 8px 16px;
+    position: absolute;
+    left: 877px;
+    top: 113px;
+    z-index: 10;
+    text-align: center;
     font-weight: bold;
-    text-transform:uppercase;
+    text-transform: uppercase;
+    box-shadow: 0px 4px 8px 1px gray;
+}
+
+/* podcast */
+.podcast {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 50px 200px 120px 200px;
+    background-color: #1A0B2E;
+}
+
+.text-content {
+    margin-bottom: 80px;
+    max-width: 1200px;
+}
+
+.text-content h3 {
+    font-weight: bold;
+    font-size: 3rem;
+    text-align: center;
+    color: white;
+    margin-bottom: 16px;
+
+}
+
+.text-content p {
+    font-weight: 400;
+    font-size: 1rem;
+    text-align: center;
+    color: #ffffff;
+    line-height: 20px;
+}
+
+.rating {
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 80px;
+}
+
+.rating .box {
+    max-width: 240px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+}
+
+.rating .box h2 {
+    font-weight: bolder;
+    font-size: 3rem;
+    text-align: center;
+    color: #00FF88;
+
+}
+
+.rating .box p {
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    font-size: 1rem;
+    color: #ffffff96;
+    text-transform: uppercase;
+}
+
+
+/* choose techwave */
+.choose-techwave{
+
+}
+
+/* Responsiveness */
+@media screen and (max-width:640px) {
+    .podcast {
+        max-width: 440px;
+        padding: 40px 20px 40px 20px;
+    }
+
+    .text-content {
+        margin-bottom: 40px;
+        max-width: 400px;
+    }
+
+    .text-content h3 {
+        font-size: 1.5rem;
+    }
+
+    .text-content p{
+        font-weight:400;
+        font-size:1rem;
+    }
+
+    .rating {
+    max-width: 400px;
+    grid-template-columns: repeat(2, 1fr);
+    gap:40px;
+}
+
+.rating .box {
+    max-width: 180px;
+    flex-wrap:wrap;
+}
+
+.rating .box h2 {
+    font-size: 2.5rem;
+}
+
+.rating .box p {
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    font-size: .6rem;
+    color: #ffffff96;
+    text-transform: uppercase;
+}
+
+
 }
