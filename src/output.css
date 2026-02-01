@@ -379,8 +379,14 @@
   .bg-\[url\(\'\'\)\] {
     background-image: url('');
   }
+  .bg-\[url\(\'\.\.\/assets\/footer-bg\.png\'\)\] {
+    background-image: url('../assets/footer-bg.png');
+  }
   .bg-\[url\(\'\.\.\/assets\/hero-bg\.png\'\)\] {
     background-image: url('../assets/hero-bg.png');
+  }
+  .bg-\[url\(\'\.\/assets\/footer-bg\.png\'\)\] {
+    background-image: url('./assets/footer-bg.png');
   }
   .bg-\[url\(\'\.\/assets\/hero-bg\.png\'\)\] {
     background-image: url('./assets/hero-bg.png');
