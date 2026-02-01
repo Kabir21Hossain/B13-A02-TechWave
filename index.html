@@ -14,7 +14,7 @@
 
 <body class="inter">
     <header>
-        <nav class=" mx-auto max-w-110 flex flex-wrap justify-between py-4 px-5 text-white sm:max-w-400 sm:px-50">
+        <nav class="mx-auto max-w-110 flex flex-wrap justify-between py-4 px-5 text-white sm:max-w-400 sm:px-50">
 
             <h2 class="text-4xl font-extrabold">
                 Tech<span class="bg-clip-text text-transparent bg-gradient-to-r 
@@ -45,28 +45,27 @@
         </nav>
 
         <section class="hero">
-
             <div class="container">
-                <div class="w-full">
-                    <img class="circle" src="/assets/hero-circle.png" alt="">
-                    <img class="mic" src="/assets/microphone.png" alt="">
-                    <p class="badge">new</p>
-                </div>
+                <img src="assets/hero-circle.png" alt="" class="circle">
+                <img src="assets/microphone.png" alt="" class="mic">
+                <span class="badge">new</span>
 
-                <div class="hero-content w-full ">
-                    <h2 class="font-extrabold text-[60px] text-center text-white">TechWave</h2>
+                <div class="brand-desc">
+                    <h3>TechWave</h3>
                     <p>Your daily dose of tech insights, productivity hacks, and personal growth</p>
                 </div>
 
-                <div class="btn-section  absolute flex">
-                    <button>Listen On Spotify</button>
-                    <button>Subscribe</button>
+                <div class="btn-cls">
+                    <button class=" flex gap-2 justify-center items-center w-53 h-11 
+                                px-4 py-3 border rounded-[10000px] text-center text-white 
+                                bg-gradient-to-r from-[#f7e93f] from-0% via-[#fb09b4] via-51% to-[#9100f8] to-100%
+                                font-semibold text-[16px]"><img src="assets/spotify.png" alt=""> Listen on Spotify</button>
+
+                    <button class="border-2 rounded-[10000px] border-green-500 text-green-500 px-5 py-2 font-bold flex gap-2 justify-center items-center ">
+                        <img src="assets/message.png" alt="">Subscribe</button>
                 </div>
             </div>
-
-
-
-
+        </section>
 
         </section>
     </header>

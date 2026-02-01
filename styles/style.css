@@ -13,6 +13,7 @@
 button:hover {
     transform: scaleY(1.1);
     background-color: #06010a;
+    cursor:pointer;
 }
 
 /* hamburger color */
@@ -22,50 +23,51 @@ nav {
 }
 
 /* hero section */
+.hero{
+    width:100%;
+    max-width:1600px;
+    background-image:url('../assets/hero-bg.png');
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+    margin:0 auto;
+    text-align:center;
+    min-height:700px;
+    /* padding-bottom:100px; */
 
-.hero {
-    position: relative;
-    display: flex;
-    flex-direction: column;
+}
+
+.hero .container{
+    position:relative;
+    max-width:550px;
+    min-height:558px;
+    display:flex;
+    flex-direction:column;
     align-items: center;
-    max-width: 1600px;
-    /* background-color: #502a86; */
-    margin: 0 auto;
-    height: 760px;
-    background-image: url('/assets/hero-bg.png');
-    background-size: contain;
-    background-repeat: no-repeat;
+    gap:40px;
+    /* left:625px;
+    top:45px; */
+    left:525px;
+    top:45px;
+    
+}
+.circle{
+    position:absolute;
+    left:100px;
+    top:0px;
+    z-index:5;
+    width:350px;
+    height:350px;
 
 }
-
-.circle {
-    position: absolute;
-    left: 625px;
-    top: 101px;
-    z-index: 2;
-    width: 350px;
-    height: 350px;
-    margin-bottom: 40px;
-
+.mic{
+    position:absolute;
+    top:69px;
+    left:210px;
+    z-index:10;
 }
 
-.container {
-    max-width: 550px;
-    height: 558px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
 
-}
-
-.mic {
-    position: absolute;
-    left: 700px;
-    top: 170px;
-    z-index: 5;
-    width: 200px;
-    height: 200px;
-}
 
 .badge {
     background-color: #00FF88;
@@ -75,13 +77,39 @@ nav {
     border-radius: 1000px;
     padding: 8px 16px;
     position: absolute;
-    left: 877px;
-    top: 113px;
+    left: 350px;
+    top: 10px;
     z-index: 10;
     text-align: center;
     font-weight: bold;
     text-transform: uppercase;
     box-shadow: 0px 4px 8px 1px gray;
+}
+
+.brand-desc{
+    position:absolute;
+    top:390px;
+}
+
+.brand-desc h3{
+    font-weight:bolder;
+    font-size:3.75rem;
+    text-align:center;
+    color:white;
+
+}
+.brand-desc p{
+    color:rgba(239, 231, 231, 0.676);
+}
+
+.btn-cls{
+    position:absolute;
+    top:500px;
+    display:flex;
+    gap:8px;
+    margin-top:20px;
+    margin-bottom:100px;
+
 }
 
 /* podcast */
@@ -293,6 +321,66 @@ nav {
         max-width:440px;
         padding:40px 20px;
     }
+
+/* hero */
+
+    .hero{
+    width:100%;
+    max-width:440px;
+    
+}
+
+.hero .container{
+    width:100%;
+    max-width:400px;
+    height:386px;
+    gap:24px;
+    /* left:625px;
+    top:45px; */
+    left:20px;
+    top:40px;
+    
+}
+.circle{
+    left:100px;
+    top:50px;
+    width:200px;
+    height:200px;
+
+
+}
+.mic{
+    top:110px;
+    left:160px;
+    width: 80px;
+    height:80px;
+}
+
+
+
+.badge {
+    
+    left:230px;
+    top: 60px;
+
+}
+
+.brand-desc{
+    top:264px;
+}
+
+.brand-desc h3{
+    font-size:2rem;
+}
+.brand-desc p{
+    color:rgba(239, 231, 231, 0.676);
+}
+
+.btn-cls{
+    top:382px;
+    margin-top:10px;
+
+}
 
 
 
