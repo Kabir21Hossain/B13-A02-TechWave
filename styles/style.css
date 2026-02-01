@@ -30,7 +30,7 @@ nav {
     text-align: center;
     min-height: 700px;
 
-    background-image: url('assets/hero-bg.png');
+    background-image: url('../assets/hero-bg.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -249,7 +249,7 @@ nav {
 }
 
 footer{
-    background-image: url('assets/footer-bg.png');
+    background-image: url('../assets/footer-bg.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
