@@ -26,10 +26,14 @@ nav {
 .hero {
     width: 100%;
     max-width: 1600px;
-    
     margin: 0 auto;
     text-align: center;
     min-height: 700px;
+
+    background-image: url('/assets/hero-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
    
 
 }
@@ -243,7 +247,14 @@ nav {
     grid-column: span 2;
 }
 
+footer{
+    background-image: url('/assets/footer-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   
 
+}
 
 /* feature section */
 
