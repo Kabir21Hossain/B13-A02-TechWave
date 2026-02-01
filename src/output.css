@@ -272,6 +272,9 @@
   .max-w-110 {
     max-width: calc(var(--spacing) * 110);
   }
+  .max-w-400 {
+    max-width: calc(var(--spacing) * 400);
+  }
   .flex-grow {
     flex-grow: 1;
   }
@@ -467,6 +470,9 @@
   }
   .px-5 {
     padding-inline: calc(var(--spacing) * 5);
+  }
+  .px-50 {
+    padding-inline: calc(var(--spacing) * 50);
   }
   .py-2 {
     padding-block: calc(var(--spacing) * 2);

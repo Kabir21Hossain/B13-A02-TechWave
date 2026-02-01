@@ -46,8 +46,9 @@ nav {
     flex-direction: column;
     align-items: center;
     gap: 40px;
-    left: 525px;
-    top: 45px;
+    margin: 0 auto;
+    left: 0;
+    top: 40px;
 
 }
 
@@ -259,7 +260,11 @@ footer{
 /* feature section */
 
 /* Responsiveness */
-@media screen and (max-width:640px) {
+@media screen and (max-width:568px) {
+    nav{
+        max-width:440px;
+        padding:0 5px;
+    }
     .podcast {
         max-width:440px;
         padding: 40px 20px 40px 20px;
