@@ -27,10 +27,10 @@ nav {
     width: 100%;
     max-width: 1600px;
     /* background-image: url('../assets/hero-bg.png'); */
-    background-image:url('/assets/hero-bg.png');
+    /* background-image:url('/assets/hero-bg.png');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: center; */
     margin: 0 auto;
     text-align: center;
     min-height: 700px;
@@ -249,14 +249,14 @@ nav {
     grid-column: span 2;
 }
 
-footer {
+/* footer {
     background-image: url('/assets/footer-bg.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     
     
-}
+} */
 
 
 /* feature section */
