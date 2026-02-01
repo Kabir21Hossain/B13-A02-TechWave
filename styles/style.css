@@ -11,7 +11,7 @@
 
 /* shared style */
 button:hover {
-    transform: scaleY(1.1);
+    transform: scaleY(1.05);
     background-color: #06010a;
     cursor:pointer;
 }
@@ -26,7 +26,7 @@ nav {
 .hero{
     width:100%;
     max-width:1600px;
-    background-image:url('assets/hero-bg.png');
+    background-image:url('/assets/hero-bg.png');
     background-repeat:no-repeat;
     background-size:cover;
     background-position:center;
@@ -242,6 +242,13 @@ nav {
 
 .mobile {
     grid-column: span 2;
+}
+
+footer{
+    background-image: url('/assets/footer-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 
